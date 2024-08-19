@@ -5,13 +5,13 @@ import CarItem from "../CarItem/CarItem";
 
 const CarDisplay = ({ category }) => {
 
-  const {car_list} = useContext(StoreContext)
+  const {food_list} = useContext(StoreContext)
 
   return (
     <div className="car-display" id="car-display">
-      <h2>Top cars</h2>
+      <h2>Top selling</h2>
       <div className="car-display-list">
-        {car_list.map((item, index) => {
+        {food_list.map((item, index) => {
           if (category==="All" || category===item.category) {
             return (
               <CarItem

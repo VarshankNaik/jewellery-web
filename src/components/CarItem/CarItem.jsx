@@ -11,7 +11,7 @@ const CarItem = ({ id, name, price, description, image }) => {
       <div className="car-item-info">
         <div className="car-item-name-rating">
           <p>{name}</p>
-          <img src={assets.rating_starts} alt="" />
+          {/* <img src={assets.rating_starts} alt="" /> */}
         </div>
         <p className="car-item-desc">{description}</p>
         <p className="car-item-price">${price}</p>
