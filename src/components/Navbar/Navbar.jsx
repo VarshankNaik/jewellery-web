@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={assets.logo1} alt="" className="logo" />
         <ul className="navbar-menu">
           <Link to='/' onClick={()=>setMenu("Home")} className={menu==="Home"?"active":""}>Home</Link>
-          <a href='#explore-menu' onClick={()=>setMenu("Menu")} className={menu==="Menu"?"active":""}>Menu</a>
+          <a href='#explore-menu' onClick={()=>setMenu("Menu")} className={menu==="Menu"?"active":""}>Products</a>
           {/* <a href='#xplore-menu' onClick={()=>setMenu("Categories")} className={menu==="Categories"?"active":""}>Categories</a> */}
           <a href='#footer' onClick={()=>setMenu("Contact us")} className={menu==="Contact us"?"active":""}>Contact us</a>
         </ul>
