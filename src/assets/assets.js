@@ -306,9 +306,9 @@ export const food_list = [
     },
     {
         _id: "13",
-        name: "Ripple Ice Cream",
+        name: "Ring",
         image: ring_27,
-        price: 14,
+        price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Ring"
     },
